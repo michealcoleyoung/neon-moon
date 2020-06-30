@@ -2,21 +2,20 @@ html {
     overflow: hidden;
 }
 
-#horizontal-list {
+#navbar {
     text-align: center;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin-bottom: 10px;
 }
 
+// nav {
+//     margin-bottom: -40px;
+// }
 li {
     display: inline;
     padding: 40px;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-.container {
-    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .background-image {
@@ -26,6 +25,23 @@ li {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: 100% 100%;
+    background-color: black;
+}
+
+.container .create {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    letter-spacing: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 // CREATE BUTTON COLORS
