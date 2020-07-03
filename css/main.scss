@@ -1,15 +1,13 @@
-// html {
-//     overflow: hidden;
-// }
+html {
+    overflow: hidden;
+}
+
 #navbar {
     text-align: center;
     padding: 0px;
     margin-bottom: 10px;
 }
 
-// nav {
-//     margin-bottom: -40px;
-// }
 li {
     display: inline;
     padding: 40px;
@@ -35,19 +33,80 @@ li {
     transform: translate(-50%, -50%);
 }
 
+// .create {
+//     @include centerer;
+//     font-family: 'Nunito Sans', sans-serif;
+//     position: absolute;
+//     font-size: 25px;
+//     letter-spacing: 14px;
+//     border: 1px solid white;
+//     background-color: transparent;
+//     color: white;
+//     padding: 16px;
+//     cursor: pointer;
+//     opacity: 0.5;
+//     outline: none;
+// }
+// .create {
+//     position: absolute;
+//     margin-right: 50px;
+//     padding: 15px;
+//     font-family: 'Nunito Sans', sans-serif;
+//     letter-spacing: 14px;
+//     padding-left: 1em;
+//     font-size: 25px;
+//     background-color: transparent;
+//     outline: none;
+//     border: 1px solid white;
+//     color: white;
+//     opacity: 0.5;
+//     cursor: pointer;
+//     @include centerer;
+//     font-weight: bolder;
+// }
+// .dot {
+//     height: 15px;
+//     width: 15px;
+//     margin: 5px;
+//     background-color: #bbb;
+//     border-radius: 50%;
+//     display: inline-block;
+//     text-align: center;
+// }
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 6px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
 .create {
-    @include centerer;
-    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
     position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     font-size: 25px;
+    padding: 15px;
     letter-spacing: 14px;
-    border: 1px solid white;
+    padding-left: 1em;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: transparent;
     color: white;
-    padding: 16px;
-    cursor: pointer;
+    border: 1px solid white;
     opacity: 0.5;
-    outline: none;
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 // CREATE BUTTON COLORS

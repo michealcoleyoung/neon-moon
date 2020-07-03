@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 #navbar {
   text-align: center;
   padding: 0px;
@@ -22,22 +26,39 @@ li {
   background-color: black;
 }
 
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 6px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
 .create {
+  margin: 0;
   position: absolute;
-  top: 90%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: 'Nunito Sans', sans-serif;
-  position: absolute;
   font-size: 25px;
+  padding: 15px;
   letter-spacing: 14px;
-  border: 1px solid white;
+  padding-left: 1em;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: transparent;
   color: white;
-  padding: 16px;
-  cursor: pointer;
+  border: 1px solid white;
   opacity: 0.5;
-  outline: none;
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=main.css.map */
