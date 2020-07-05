@@ -1,5 +1,6 @@
 html {
   overflow: hidden;
+  height: 100%;
 }
 
 #navbar {
@@ -24,9 +25,17 @@ li {
   background-position: center;
   background-size: 100% 100%;
   background-color: black;
+  margin-left: calc(-50vw + 50%);
 }
 
-.dot {
+.slide-1,
+.slide-2,
+.slide-3,
+.slide-4,
+.slide-5,
+.slide-6,
+.slide-7,
+.slide-8 {
   height: 15px;
   width: 15px;
   margin: 6px;
@@ -49,8 +58,19 @@ li {
   font-family: 'Nunito Sans', sans-serif;
   background-color: transparent;
   color: white;
-  border: 1px solid white;
-  opacity: 0.5;
+  border: 2px solid white;
+  opacity: 0.4;
+  outline: none;
+  cursor: pointer;
+}
+
+.create:hover {
+  color: #ED3DD2 !important;
+  border: 2px solid #ED3DD2 !important;
+  -webkit-box-shadow: 0 0 4px white !important;
+          box-shadow: 0 0 4px white !important;
+  text-shadow: 0px 0px 2px white;
+  opacity: 1;
 }
 
 .container {
