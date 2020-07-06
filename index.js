@@ -4,6 +4,9 @@ let images = [];
 let time = 3000;
 
 
+let host = `http://${window.location.host}/`;
+console.log(host);
+
 images[0] = 'images/slide-1.png';
 images[1] = 'images/slide-2.png';
 images[2] = 'images/slide-3.png';
@@ -14,12 +17,22 @@ images[6] = 'images/slide-7.png';
 images[7] = 'images/slide-8.png';
 
 
+function setColor() {
+    let img = document.getElementById("images").src;
+    console.log(img);
+
+    if (img == `${host}${images[0]}`) {
+        document.getElementById("button").style.color = "blue";
+    } else {
+        document.getElementById("button").style.color = "green";
+    }
+}
+
 
 
 function changeImg() {
     document.slide.src = images[i];
-    let img = document.getElementById("images").src;
-    console.log(img);
+    setColor();
 
     if (i < images.length - 1) {
         i++;
