@@ -1,5 +1,4 @@
 i = 0;
-
 let images = [];
 let time = 3000;
 
@@ -19,10 +18,14 @@ images[7] = 'images/slide-8.png';
 
 function setColor() {
     let img = document.getElementById("images").src;
+    let create = document.getElementById("button");
+
     console.log(img);
 
+
     if (img == `${host}${images[0]}`) {
-        document.getElementById("button").style.color = "blue";
+        document.getElementById("button").style.color = "blue"
+
     } else {
         document.getElementById("button").style.color = "green";
     }

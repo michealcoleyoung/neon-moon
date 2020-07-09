@@ -17,6 +17,7 @@ li {
 }
 
 .background-image {
+  background: url("/images/slide-1.png");
   margin: auto;
   width: 100vw;
   background-repeat: no-repeat;

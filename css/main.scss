@@ -56,9 +56,17 @@ li {
     cursor: pointer;
 }
 
+$slide-1: #ED3DD2; // slide 1
+$slide-2: #2EBAFF; // slide 2
+$slide-3: #0E90CA; // slide 3
+$slide-4: #FF682C; // slide 4
+$slide-5: #FF4502; // slide 5
+$slide-6: #F9B5C0; // slide 6
+$slide-7: #FD90D3; // slide 7
+$slide-8: #FD90D3; // slide 8
 .create:hover {
-    color: #ED3DD2 !important;
-    border: 2px solid #ED3DD2 !important;
+    color: $slide-1 !important;
+    border: 2px solid $slide-1 !important;
     box-shadow: 0 0 4px white !important;
     text-shadow: 0px 0px 2px white;
     opacity: 1;
@@ -72,5 +80,3 @@ li {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
-// CREATE BUTTON COLORS
