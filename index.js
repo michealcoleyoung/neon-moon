@@ -22,13 +22,41 @@ function setColor() {
 
     console.log(img);
 
-
-    if (img == `${host}${images[0]}`) {
-        document.getElementById("button").style.color = "blue"
-
-    } else {
-        document.getElementById("button").style.color = "green";
+    switch (true) {
+        case (img == `${host}${images[0]}`):
+            document.getElementById("button").style.color = "blue";
+            break;
+        case (img == `${host}${images[1]}`):
+            document.getElementById("button").style.color = "green";
+            break;
+        case (img == `${host}${images[2]}`):
+            document.getElementById("button").style.color = "red";
+            break;
+        case (img == `${host}${images[3]}`):
+            document.getElementById("button").style.color = "purple";
+            break;
+        case (img == `${host}${images[4]}`):
+            document.getElementById("button").style.color = "blue";
+            break;
+        case (img == `${host}${images[5]}`):
+            document.getElementById("button").style.color = "blue";
+            break;
+        case (img == `${host}${images[6]}`):
+            document.getElementById("button").style.color = "blue";
+            break;
+        case (img == `${host}${images[7]}`):
+            document.getElementById("button").style.color = "blue";
+            break;
     }
+
+
+
+    // if (img == `${host}${images[0]}`) {
+    //     document.getElementById("button").style.color = "blue"
+
+    // } else {
+    //     document.getElementById("button").style.color = "green";
+    // }
 }
 
 
