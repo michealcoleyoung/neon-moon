@@ -18,13 +18,30 @@ images[7] = 'images/slide-8.png';
 
 function setColor() {
     let img = document.getElementById("images").src;
-    let create = document.getElementById("button");
+    let slides = document.getElementsByClassName('slides');
 
-    console.log(img);
+    for (let i of slides) {
+        for (let x of images) {
+            if (img == `${host}${images[x]}`) {
+                console.log(slides[i])
+            } else {
+                console.log('sdfsdf')
+            }
+        }
+    }
+
+    // for (let x of images) {
+    //     if (img == `${host}${images[x]}`) {
+    //         document.getElementsByClassName('slides')[0].style = "background-color: #2EBAFF";
+    //     } else {
+    //         document.getElementsByClassName('slides')[0].style = "background-color: white";
+    //     }
+    // }
 
     switch (true) {
         case (img == `${host}${images[0]}`):
             document.getElementById("button").style.color = "blue";
+            // document.getElementsByClassName('slides')[0].style = "background-color: #2EBAFF";
             break;
         case (img == `${host}${images[1]}`):
             document.getElementById("button").style.color = "green";
@@ -48,17 +65,7 @@ function setColor() {
             document.getElementById("button").style.color = "blue";
             break;
     }
-
-
-
-    // if (img == `${host}${images[0]}`) {
-    //     document.getElementById("button").style.color = "blue"
-
-    // } else {
-    //     document.getElementById("button").style.color = "green";
-    // }
 }
-
 
 
 function changeImg() {
@@ -74,6 +81,5 @@ function changeImg() {
     setTimeout("changeImg()", time);
 
 }
-
 
 window.onload = changeImg;
