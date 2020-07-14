@@ -18,33 +18,17 @@ images[7] = 'images/slide-8.png';
 
 function setColor() {
     let img = document.getElementById("images").src;
-    let slides = document.getElementsByClassName('slides');
+    let button = document.getElementById('button');
 
-    for (let i of slides) {
-        for (let x of images) {
-            if (img == `${host}${images[x]}`) {
-                console.log(slides[i])
-            } else {
-                console.log('sdfsdf')
-            }
-        }
-    }
-
-    // for (let x of images) {
-    //     if (img == `${host}${images[x]}`) {
-    //         document.getElementsByClassName('slides')[0].style = "background-color: #2EBAFF";
-    //     } else {
-    //         document.getElementsByClassName('slides')[0].style = "background-color: white";
-    //     }
-    // }
 
     switch (true) {
         case (img == `${host}${images[0]}`):
-            document.getElementById("button").style.color = "blue";
-            // document.getElementsByClassName('slides')[0].style = "background-color: #2EBAFF";
+            button.classList.remove('hover-class1', 'hover-class2');
+            button.classList.add('hover-class1');
             break;
         case (img == `${host}${images[1]}`):
-            document.getElementById("button").style.color = "green";
+            button.classList.remove('hover-class1', 'hover-class2');
+            button.classList.add('hover-class2');
             break;
         case (img == `${host}${images[2]}`):
             document.getElementById("button").style.color = "red";

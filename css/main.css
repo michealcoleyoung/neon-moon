@@ -1,6 +1,6 @@
 html {
   overflow: hidden;
-  height: 1000%;
+  height: 100%;
 }
 
 #navbar {
@@ -14,10 +14,6 @@ li {
   padding: 40px;
   font-size: 25px;
   font-family: 'Nunito Sans', sans-serif;
-}
-
-li:hover {
-  color: blue;
 }
 
 .background-image {
@@ -58,9 +54,18 @@ li:hover {
   cursor: pointer;
 }
 
-.create:hover {
+.hover-class1:hover {
   color: #ED3DD2 !important;
   border: 2px solid #ED3DD2 !important;
+  -webkit-box-shadow: 0 0 4px white !important;
+          box-shadow: 0 0 4px white !important;
+  text-shadow: 0px 0px 2px white;
+  opacity: 1;
+}
+
+.hover-class2:hover {
+  color: #2EBAFF !important;
+  border: 2px solid #2EBAFF !important;
   -webkit-box-shadow: 0 0 4px white !important;
           box-shadow: 0 0 4px white !important;
   text-shadow: 0px 0px 2px white;

@@ -1,6 +1,6 @@
 html {
     overflow: hidden;
-    height: 1000%;
+    height: 100%;
 }
 
 #navbar {
@@ -37,6 +37,14 @@ li {
     text-align: center;
 }
 
+$slide-1: #ED3DD2; // slide 1
+$slide-2: #2EBAFF; // slide 2
+$slide-3: #0E90CA; // slide 3
+$slide-4: #FF682C; // slide 4
+$slide-5: #FF4502; // slide 5
+$slide-6: #F9B5C0; // slide 6
+$slide-7: #FD90D3; // slide 7
+$slide-8: #FD90D3; // slide 8
 .create {
     margin: 0;
     position: absolute;
@@ -54,30 +62,24 @@ li {
     opacity: 0.4;
     outline: none;
     cursor: pointer;
-    &:hover {
-        color: $slide-2 !important;
-        border: 2px solid $slide-2 !important;
-        box-shadow: 0 0 4px white !important;
-        text-shadow: 0px 0px 2px white;
-        opacity: 1;
-    }
 }
 
-$slide-1: #ED3DD2; // slide 1
-$slide-2: #2EBAFF; // slide 2
-$slide-3: #0E90CA; // slide 3
-$slide-4: #FF682C; // slide 4
-$slide-5: #FF4502; // slide 5
-$slide-6: #F9B5C0; // slide 6
-$slide-7: #FD90D3; // slide 7
-$slide-8: #FD90D3; // slide 8
-// .create:hover {
-//     color: $slide-1 !important;
-//     border: 2px solid $slide-1 !important;
-//     box-shadow: 0 0 4px white !important;
-//     text-shadow: 0px 0px 2px white;
-//     opacity: 1;
-// }
+.hover-class1:hover {
+    color: $slide-1 !important;
+    border: 2px solid $slide-1 !important;
+    box-shadow: 0 0 4px white !important;
+    text-shadow: 0px 0px 2px white;
+    opacity: 1;
+}
+
+.hover-class2:hover {
+    color: $slide-2 !important;
+    border: 2px solid $slide-2 !important;
+    box-shadow: 0 0 4px white !important;
+    text-shadow: 0px 0px 2px white;
+    opacity: 1;
+}
+
 .container {
     margin: 0;
     position: absolute;
