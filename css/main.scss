@@ -23,7 +23,7 @@ li {
     height: 100vh;
     background-repeat: no-repeat;
     background-position: right;
-    // background-color: black;
+    background-color: black;
     margin-left: calc(-50vw + 50%); // fixes the background to fill whole screen
 }
 
@@ -75,6 +75,54 @@ $slide-8: #FD90D3; // slide 8
 .hover-class2:hover {
     color: $slide-2 !important;
     border: 2px solid $slide-2 !important;
+    box-shadow: 0 0 4px white !important;
+    text-shadow: 0px 0px 2px white;
+    opacity: 1;
+}
+
+.hover-class3:hover {
+    color: $slide-3 !important;
+    border: 2px solid $slide-3 !important;
+    box-shadow: 0 0 4px white !important;
+    text-shadow: 0px 0px 2px white;
+    opacity: 1;
+}
+
+.hover-class4:hover {
+    color: $slide-4 !important;
+    border: 2px solid $slide-4 !important;
+    box-shadow: 0 0 4px white !important;
+    text-shadow: 0px 0px 2px white;
+    opacity: 1;
+}
+
+.hover-class5:hover {
+    color: $slide-5 !important;
+    border: 2px solid $slide-5 !important;
+    box-shadow: 0 0 4px white !important;
+    text-shadow: 0px 0px 2px white;
+    opacity: 1;
+}
+
+.hover-class6:hover {
+    color: $slide-6 !important;
+    border: 2px solid $slide-6 !important;
+    box-shadow: 0 0 4px white !important;
+    text-shadow: 0px 0px 2px white;
+    opacity: 1;
+}
+
+.hover-class7:hover {
+    color: $slide-7 !important;
+    border: 2px solid $slide-7 !important;
+    box-shadow: 0 0 4px white !important;
+    text-shadow: 0px 0px 2px white;
+    opacity: 1;
+}
+
+.hover-class8:hover {
+    color: $slide-8 !important;
+    border: 2px solid $slide-8 !important;
     box-shadow: 0 0 4px white !important;
     text-shadow: 0px 0px 2px white;
     opacity: 1;

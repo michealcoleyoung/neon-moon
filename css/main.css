@@ -22,6 +22,7 @@ li {
   height: 100vh;
   background-repeat: no-repeat;
   background-position: right;
+  background-color: black;
   margin-left: calc(-50vw + 50%);
 }
 
@@ -66,6 +67,60 @@ li {
 .hover-class2:hover {
   color: #2EBAFF !important;
   border: 2px solid #2EBAFF !important;
+  -webkit-box-shadow: 0 0 4px white !important;
+          box-shadow: 0 0 4px white !important;
+  text-shadow: 0px 0px 2px white;
+  opacity: 1;
+}
+
+.hover-class3:hover {
+  color: #0E90CA !important;
+  border: 2px solid #0E90CA !important;
+  -webkit-box-shadow: 0 0 4px white !important;
+          box-shadow: 0 0 4px white !important;
+  text-shadow: 0px 0px 2px white;
+  opacity: 1;
+}
+
+.hover-class4:hover {
+  color: #FF682C !important;
+  border: 2px solid #FF682C !important;
+  -webkit-box-shadow: 0 0 4px white !important;
+          box-shadow: 0 0 4px white !important;
+  text-shadow: 0px 0px 2px white;
+  opacity: 1;
+}
+
+.hover-class5:hover {
+  color: #FF4502 !important;
+  border: 2px solid #FF4502 !important;
+  -webkit-box-shadow: 0 0 4px white !important;
+          box-shadow: 0 0 4px white !important;
+  text-shadow: 0px 0px 2px white;
+  opacity: 1;
+}
+
+.hover-class6:hover {
+  color: #F9B5C0 !important;
+  border: 2px solid #F9B5C0 !important;
+  -webkit-box-shadow: 0 0 4px white !important;
+          box-shadow: 0 0 4px white !important;
+  text-shadow: 0px 0px 2px white;
+  opacity: 1;
+}
+
+.hover-class7:hover {
+  color: #FD90D3 !important;
+  border: 2px solid #FD90D3 !important;
+  -webkit-box-shadow: 0 0 4px white !important;
+          box-shadow: 0 0 4px white !important;
+  text-shadow: 0px 0px 2px white;
+  opacity: 1;
+}
+
+.hover-class8:hover {
+  color: #FD90D3 !important;
+  border: 2px solid #FD90D3 !important;
   -webkit-box-shadow: 0 0 4px white !important;
           box-shadow: 0 0 4px white !important;
   text-shadow: 0px 0px 2px white;
