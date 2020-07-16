@@ -2,7 +2,7 @@
 $xl: 87.5em; // 4k and hi-res desktop
 $lg: 60em; // 1080 and hi-res laptops
 $med: 40em; // hi-res tablets and low-res laptops
-$sm: 28em: // mobile and low-res tablets
+$sm: 28em; // mobile and low-res tablets
 $xs: 20em; // mobile only
 html {
     overflow: hidden;
@@ -153,6 +153,6 @@ $slide-8: #FD90D3; // slide 8
     font-family: 'Nunito Sans', sans-serif;
     font-size: 50px;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     width: 100%;
 }
