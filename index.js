@@ -15,12 +15,16 @@ images[5] = 'images/slide-6.png';
 images[6] = 'images/slide-7.png';
 images[7] = 'images/slide-8.png';
 
-// sets CREATE button color that corresponds to given image
+// sets CREATE button color that corresponds to given image and sets inner text for slogan
 function setButtonColor() {
     let img = document.getElementById("images").src;
     let button = document.getElementById('button');
     let slide = document.getElementsByClassName('slides');
+    let slogan = document.getElementById('slogan');
+    let text = "IT'LL BE ALRIGHT<br>AS LONG AS THERE'S LIGHT<br>AT NEON MOON";
+    slogan.innerText = ""; // sets inner text to blank once the slides go more than one round
 
+    // clears all previous hover classes to be created again
     button.classList.remove('hover-class1', 'hover-class2',
         'hover-class3', 'hover-class4', 'hover-class5',
         'hover-class6', 'hover-class7',
@@ -56,6 +60,7 @@ function setButtonColor() {
             button.classList.add('hover-class7');
             break;
         case (img == `${host}${images[7]}`):
+            slogan.innerHTML = text;
             slide[7].style = "background-color: #2EBAFF";
             button.classList.add('hover-class8');
             break;

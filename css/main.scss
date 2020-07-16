@@ -1,3 +1,9 @@
+// responsive variables
+$xl: 87.5em; // 4k and hi-res desktop
+$lg: 60em; // 1080 and hi-res laptops
+$med: 40em; // hi-res tablets and low-res laptops
+$sm: 28em: // mobile and low-res tablets
+$xs: 20em; // mobile only
 html {
     overflow: hidden;
     height: 100%;
@@ -17,7 +23,6 @@ li {
 }
 
 .background-image {
-    // background: url("/images/slide-1.png");
     margin: auto;
     width: 100vw;
     height: 100vh;
@@ -135,4 +140,19 @@ $slide-8: #FD90D3; // slide 8
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+#slogan {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #FD90D3;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    width: 100%;
 }

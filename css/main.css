@@ -135,4 +135,19 @@ li {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
+#slogan {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #FD90D3;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 10px;
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
